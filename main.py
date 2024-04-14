@@ -132,10 +132,3 @@ class Linkedin_Scraper:
 
         print(self.comment_info)
         return self.collection
-
-
-
-L = Linkedin_Scraper("https://www.linkedin.com/posts/university-of-edinburgh_tartanday-scotland-tartan-activity-7182418572659326977-ugbf?utm_source=share&utm_medium=member_desktop",
-                     "astageil@outlook.com", "bbs88rqy")
-
-print(L.vector_database())
